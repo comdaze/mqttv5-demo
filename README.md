@@ -1,22 +1,13 @@
-MQTTv5 for AWS IoT
+# MQTTv5 for AWS IoT介绍和DEMO
 
-Sean Yang
 
-2022\-12
+# 以下AWS物联网服务支持MQTT v5
 
-# 内容
+* AWS IoT Core
 
-<span style="color:#FFFFFF">MQTTv5新特性和Demo</span>
+* AWS IoT Core Device Advisor
 
-<span style="color:#FFFFFF">AWS</span>  <span style="color:#FFFFFF"> </span>  <span style="color:#FFFFFF">IoT</span>  <span style="color:#FFFFFF">和</span>  <span style="color:#FFFFFF">MQTT</span>  <span style="color:#FFFFFF">技术规范的区别</span>
-
-# AWS物联网服务支持MQTT v5
-
-AWS IoT Core
-
-AWS IoT Core Device Advisor
-
-AWS IoT Greengrass
+* AWS IoT Greengrass
 
 # Request/Response–请求/应答
 
@@ -24,15 +15,12 @@ AWS IoT Greengrass
 
 ![](img/MQTTv5%20for%20AWS%20IoT0.png)
 
-# Demo1: 使用请求/响应模式发送更透明的消息
+## [Demo1: 使用请求/响应模式发送更透明的消息](mqttv5.ipynb)
 
 ![](img/MQTTv5%20for%20AWS%20IoT1.png)
 
 ![](img/MQTTv5%20for%20AWS%20IoT2.png)
 
-Demo代码：
-
-https://github\.com/comdaze/mqttv5\-demo\.git
 
 # User Properties – 用户属性
 
@@ -40,13 +28,13 @@ https://github\.com/comdaze/mqttv5\-demo\.git
 
 该功能与HTTP标头提供了类似的功能，只要标头中不超过8KB的总大小，就可以使用。
 
-# Demo2:具有用户属性功能的更灵活的设备消息传递
+## [Demo2:具有用户属性功能的更灵活的设备消息传递](mqttv5.ipynb)
 
 # Topic Alias-主题别名
 
 通过将主题名称映射为一个数字\(主题别名\)从而降低消息的传输、处理开销。客户端和 Server 可以各自指定允许的主题别名的数量
 
-# Demo3:使用主题别名功能更有效地使用设备带宽
+## [Demo3:使用主题别名功能更有效地使用设备带宽](mqttv5.ipynb)
 
 # Clean Start and Session Expiry
 
@@ -63,7 +51,7 @@ https://github\.com/comdaze/mqttv5\-demo\.git
 
 你可以在发布的信息中添加信息过期值。这些值代表消息的过期时间间隔，单位是秒。如果消息在该时间间隔内没有被发送给订阅者，该消息将过期并被删除。如果你不设置消息过期值，消息将不会过期。
 
-# Demo4:使用消息过期、会话过期和Clean Start功能更好地控制设备行为
+## [Demo4:使用消息过期、会话过期和Clean Start功能更好地控制设备行为](mqttv5.ipynb)
 
 ![](img/MQTTv5%20for%20AWS%20IoT3.png)
 
@@ -79,7 +67,7 @@ https://github\.com/comdaze/mqttv5\-demo\.git
 
 https://docs\.aws\.amazon\.com/iot/latest/developerguide/mqtt\.html\#mqtt5\-reason\-codes
 
-# Demo5:使用原因代码和服务器断开功能增强了设备连接流程
+# [Demo5:使用原因代码和服务器断开功能增强了设备连接流程](mqttv5.ipynb)
 
 # Payload format and content type -  载荷格式和内容类型
 
