@@ -122,11 +122,7 @@ https://docs\.aws\.amazon\.com/iot/latest/developerguide/mqtt\.html\#mqtt5\-reas
 
 # 参考 Server
 
-允许服务器指定要在 CONNACK 或 DISCONNECT 上使用的备用服务器。 这可以用作重定向或进行 配置。
-
-AWS IoT和MQTT
-
-技术规范的区别
+允许服务器指定要在 CONNACK 或 DISCONNECT 上使用的备用服务器。 这可以用作重定向或进行配置。
 
 # AWS IoT和MQTT技术规范的区别
 
