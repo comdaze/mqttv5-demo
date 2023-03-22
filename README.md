@@ -60,11 +60,7 @@
 
 # Reason code on all ACKs – 所有控制包包含原因码
 
-更改所有控制包都包含一个 Reason Code，这些控制包包括:CONNACK，PUBACK，SUBACK，UNSUBACK，DISCONNECT 。这允许参与者是否继续 请求的功能。
-
-每个控制包的原因码，详见以下链接：
-
-https://docs\.aws\.amazon\.com/iot/latest/developerguide/mqtt\.html\#mqtt5\-reason\-codes
+更改所有控制包都包含一个 Reason Code，这些控制包包括:CONNACK，PUBACK，SUBACK，UNSUBACK，DISCONNECT 。这允许参与者是否继续请求的功能。可以查看[详细的控制包的原因码](https://docs.aws.amazon.com/iot/latest/developerguide/mqtt.html#mqtt5-reason-codes)。
 
 # [Demo5:使用原因代码和服务器断开功能增强了设备连接流程](mqttv5.ipynb)
 
