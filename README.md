@@ -17,7 +17,6 @@
 
 ## [Demo1: 使用请求/响应模式发送更透明的消息](mqttv5.ipynb)
 
-![](img/MQTTv5%20for%20AWS%20IoT1.png)
 
 ![](img/MQTTv5%20for%20AWS%20IoT2.png)
 
